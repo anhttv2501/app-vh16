@@ -2,7 +2,8 @@
 function App() {
   return (
     <>
-    <table border='1px'>
+    <h2>Danh sach sinh vien nhom VH16</h2>
+    <table border='1px' width='40%'>
       <thead>
         <tr>
           <th>STT</th>
@@ -23,6 +24,7 @@ function App() {
         </tr>
       </tbody>
     </table>
+    <img src="images/book1.png" width={150} height={150}/>
     </>
   );
 }
